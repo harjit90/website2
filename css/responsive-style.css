@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/*Responsive design */
+
+@media (max-width: 1199.5px) {
+    
+
+}
+
+@media (max-width:991px) {
+
+    .header-search-box .header-links li {
+        padding: 0 0.5rem;
+    }
+    .home-banner {
+        padding: 2.5rem 3rem;
+    }
+    .home-wrapper .home-banner1,
+    .home-wrapper .home-banner2 {
+        background-position: 30% center;
+    }
+    .why-us-content {
+        height: 365px;  
+    }
+    .tools-wrapper {
+        margin: 0 !important;
+    }
+    .tools-item a h2 {
+        font-size: 1.5rem;
+    }
+    .sale-banner-item {
+        height: 420px;
+    }
+    .sale-banner-item img {
+        margin-top: 1rem;   
+    }
+    .sale-banner-item div{
+        float:left !important;
+        width: 100%;
+    }
+    .navbar {
+        justify-content: right; 
+    }
+    .navbar-toggler i {
+        color:#ffffff;
+        padding-top: 0.4rem;
+    }
+    .navbar-toggler:focus {
+        box-shadow: unset;
+    }
+    .h-menu .menu-navbar-nav li.nav-item:first-child .nav-link {
+        border-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .sale-banner-item {
+        margin-bottom: 2rem;
+    }
+    .sale-banner-item div{
+        float:right !important;
+        width: auto;
+    }
+    .sale-banner-item {
+        height: 250px;
+    }
+    .upper-header {
+        display: none;
+    }
+    .header-links select {
+        display: none;
+    }
+    .header-search-box input {
+        padding: 0.2rem 0rem 0.2rem 0.3rem;
+    }
+    .home-banne-text h1 {
+        font-size: 2.5rem;
+    }
+    .first-order-banner {
+        padding: 2.5rem 1.5rem;
+    }
+    .first-order-banner .primary-btn {
+        margin-top: 2rem;
+    }
+    .category-menu {
+        display: none;
+    }
+    .tools-item a {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .why-us-content {
+        height: unset;
+    }
+    .copyright p:nth-child(2) {
+        display: inline-block;
+        justify-content: left;
+    }
+    .sale-banner-item {
+        height: 420px;
+    }
+    .sale-banner-item img {
+        margin-top: 1rem;   
+    }
+    .sale-banner-item div{
+        float:left !important;
+        width: 100%;
+    }    
+}
+
+@media (max-width: 360px) {
+
+    
+}
+
